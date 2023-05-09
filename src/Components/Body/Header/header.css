@@ -1,0 +1,108 @@
+.headerSection{
+    justify-content: space-between;
+}
+.title h1{
+    font-size: 30px;
+    color: #0A043C;
+    font-weight: 700;
+    transform: translateX(2rem);
+}
+.par p{
+    font-size: 15px;
+    color: rgb(121, 120, 121);
+    font-weight: 500;
+    /* padding: 10px; */
+    transform: translateY(10px);
+    margin-left: 30px;
+    
+}
+.searchBar{
+    padding: 8px 2px;
+    /* padding-right: 5px; */
+    background: white;
+    border-radius: 10rem;
+    /* gap: 1rem; */
+    transform: translateX(8rem);
+}
+
+.searchBar input{
+    border: none;
+    outline: none;
+    background: none;
+}
+.searchBar .icon{
+    /* margin-left: 50px; */
+    transform: translateX(-0.5rem);
+    font-size: 15px;
+    color: #0A043C;
+}
+.notif .icon{
+    /* margin-left: 20rem; */
+    transform: translateX(-38px);
+    color: #0A043C;
+}
+/* Card */
+.cardSection{
+    /* margin-top: 1rem; */
+    /* grid-gap: 1rem; */
+
+    /* background-position: center; */
+}
+
+.cardSection {
+    /* position: relative; */
+    /* flex-basis: 70%; */
+    width: 800px;
+    height: 300px;
+    /* flex-direction: column; */
+    /* align-items: flex-start;
+    justify-content: center; */
+    /* margin: auto; */
+    margin: 2rem;
+    border-radius: 1rem;
+    /* background-size: cover; */
+    /* overflow: hidden; */
+    background: rgba(156, 155, 156, 0.842);
+    padding: 30px;
+
+    overflow: hidden; /* pour cacher tout contenu qui dépasse la taille du rectangle */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.rightCard h1{
+    font-size: 30px;
+    color: white;
+    font-weight: 800;
+    transform: translateY(-3rem);
+}
+.rightCard p{
+    /* padding: 1rem; */
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    padding-bottom: 2rem;
+    transform: translateY(-1rem);
+}
+
+.rightCard a{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+    /* transform: translateY(80rem); */
+}
+.rightCard img{
+    /* font-size: 18px;
+    color: rgb(0, 139, 2);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline; */
+    transform: translateX(2.1rem);
+    margin-top: 35px;
+
+}
